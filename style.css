@@ -20,6 +20,7 @@
     width: 100%;
     position: fixed;
     top: 0;
+    z-index: 900;
 
     
 }
@@ -44,11 +45,25 @@
 .wrap___main{
     background-color: black;
     height: 100%;
-    display: flex;
     flex-wrap: wrap;
     overflow: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.main--user {
+    margin: 8px;
+    position: relative;
+}
+
+.main--usertag {
+    color: white;
+    background-color: rgba(66, 66, 66, 0.8);
+    position: absolute;
+    bottom: 20px;
+
+}
 
 
 /* regole bot  */
