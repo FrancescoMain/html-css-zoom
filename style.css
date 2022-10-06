@@ -8,8 +8,7 @@
 .wrap {
     height: 100vh;
     width: 100%;
-    /* DEBUG */
-    background-color: blue;
+   
 }
 
 /* regole top */
@@ -29,10 +28,11 @@
 
 .wrap__top__but {
     color: white;
-    background-color: gray;
-    padding: 2px;
+    background-color: rgb(82, 81, 81);
+    padding: 6px;
     border-radius: 6px;
     margin-left: 6px;
+    font-size: 18PX;
 
 }
 
@@ -42,9 +42,11 @@
 
 /* regole main  */
 .wrap___main{
-    /* DEBUG */
-    background-color: blueviolet;
+    background-color: black;
     height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
 }
 
 
