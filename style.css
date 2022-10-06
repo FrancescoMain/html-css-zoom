@@ -32,7 +32,7 @@
     padding: 6px;
     border-radius: 6px;
     margin-left: 6px;
-    font-size: 18PX;
+    font-size: 14PX;
 
 }
 
@@ -53,10 +53,9 @@
 
 /* regole bot  */
 .wrap__bot {
-    background-color: rgb(56, 56, 56);
+    background-color: rgb(37, 37, 37);
     display: flex;
     justify-content: space-between;
-    padding: 8px;
     width: 100%;
     position: fixed;
     bottom: 0;
@@ -65,5 +64,60 @@
 
 .wrap__bot__cont{
     display: flex;
+    color: white;
+    margin: 4px 0;
+    padding: 7px 0;
 
+}
+
+.wrap__bot__cont--icon{
+    margin-right: 10px;
+    font-size: 18px;
+    width: 45px;
+    text-align: center;
+    position: relative;
+}
+
+.wrap__bot__cont--size{
+  
+    width: 85px;
+   
+}
+
+.wrap__bot__cont--text {
+    font-size: 10px;
+    margin-top: 5px;
+    
+}
+
+.wrap__bot__cont--arrow {
+    font-size: 10px;
+    position: absolute;
+    left: 40px;
+    top: 10px;
+    
+}
+
+.wrap__bot__cont--pos{
+    left: 80px;
+
+}
+
+.wrap__bot__cont--color {
+    color: greenyellow;
+}
+
+.wrap__bot__bcont{
+    color: red;
+    background-color: rgb(88, 88, 88);
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bcont--text {
+    font-size: 10px;
+ ì
 }
